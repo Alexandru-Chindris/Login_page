@@ -1,0 +1,49 @@
+*{
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.showDialog{
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(background.png);
+}
+
+.input{
+  width: 230px;
+  height: 20px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.title{
+  font-size: x-large;
+  color: red;
+  padding-bottom: 30px;
+}
+
+.btn{
+  color: brown;
+  font-weight: bolder;
+}
+
+.cus_size {
+  font-size: large;
+}
+
+.block{
+  height: 100%;
+  width: 100%;
+  color: white;
+}
